@@ -274,7 +274,7 @@ void updateReport(struct Transaction newTransaction){
     file = fopen("data.txt", "w");
     if (file == NULL) {
         perror("Error opening data.txt for writing");
-        free(transactions); // Free memory allocated for old transactions
+        free(transactions); 
         return;
     }
 
