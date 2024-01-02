@@ -1,0 +1,5 @@
+1,income,cash,1500.00
+1,income,cash,1.00
+2,expense,debit,3.00
+29,expense,credit,5034.20
+0,null,null,0.0
